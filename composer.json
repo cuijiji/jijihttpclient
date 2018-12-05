@@ -1,0 +1,23 @@
+{
+    "name": "jiji/http",
+    "description": "jiji make a http client",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3",
+        "ext-curl": "*",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jiji\\Http\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cuijiji",
+            "email": "cuizhe@mafengwo.com"
+        }
+    ]
+}
