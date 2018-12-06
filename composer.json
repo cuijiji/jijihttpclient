@@ -5,8 +5,7 @@
     "require": {
         "php": ">=7.0",
         "guzzlehttp/guzzle": "^6.3",
-        "ext-curl": "*",
-        "monolog/monolog": "^1.23"
+        "ext-curl": "*"
     },
     "autoload": {
         "psr-4": {
