@@ -12,11 +12,7 @@ use Jiji\Http\Response\Response;
 use GuzzleHttp\HandlerStack;
 use Psr\Http\Message\ResponseInterface;
 
-/**
- * Class BaseClient.
- *
- * @author Jiji <i@Jiji.me>
- */
+
 class Client
 {
     /**

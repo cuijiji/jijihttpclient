@@ -11,8 +11,6 @@ namespace Jiji\Http;
 class Config
 {
     /**
-     * @see http://docs.guzzlephp.org/en/latest/request-options.html
-     *
      * @var array
      */
     protected $options = [
