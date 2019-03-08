@@ -20,7 +20,14 @@ composer require jiji/http
 require __DIR__."/../vendor/autoload.php";
 
 class Test{
-    public function __construct()
+    public function get()
+    {
+
+        $client = new \Jiji\Http\Client();
+        $client->get("https://www.apiopen.top/weatherApi", ['city'=>'成都']);
+        
+    }
+    public function post()
     {
 
         $client = new \Jiji\Http\Client();
@@ -28,7 +35,6 @@ class Test{
         
     }
 }
-new Test();
 ```
 ## License
 
