@@ -31,7 +31,7 @@ class Test{
     {
 
         $client = new \Jiji\Http\Client();
-        $client->get("https://www.apiopen.top/weatherApi", ['city'=>'成都']);
+        $client->post("https://www.apiopen.top/weatherApi", ['city'=>'成都']);
         
     }
 }
